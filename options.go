@@ -85,6 +85,12 @@ const (
 	//Convolve with a three-lobe Lanczos kernel.
 	Lanczos3Kernel
 
+	// Convolve with Magic Kernel Sharp 2013.
+	MKS2013Kernel
+
+	// Convolve with Magic Kernel Sharp 2021.
+	MKS2021Kernel
+
 	LastKernel
 )
 
